@@ -15,11 +15,20 @@ function randomItunes() {
     document.getElementById("imageid").src=imagesrc;
 }
 
+function randomHype(){
+    $.getJSON("hypem.json", function(json) {
+    console.log(json); // this will show the info it in firebug console
+});
+}
+
 function musicSrcDelegate(){
    var src = document.getElementById("musicSource");
     var srcVal = src.value;
     if(srcVal == "itunes"){
         randomItunes();
+    }
+    if(srcVal == "hypemachine"){
+        randomHype()
     }
     console.log(srcVal);
 }
@@ -50,6 +59,7 @@ $(data).find("item").each(function () {
     
     });
 });
+
 
 
 

@@ -1,1 +1,84 @@
-"{\"track\": \"Green Light (Hotel Garuda Remix)\", \"artist\": \"Lorde\"}{\"track\": \"DGAF feat. Shiloh Dynasty\", \"artist\": \"Noah Slee\"}{\"track\": \"Grace\", \"artist\": \"Bob Moses\"}{\"track\": \"Electric Feel\", \"artist\": \"Nick Talos vs. CRW\"}{\"track\": \"Sunroof\", \"artist\": \"courtship.\"}{\"track\": \"Don't Want Your Love\", \"artist\": \"Brika\"}{\"track\": \"Kraak & Smaak Remix\", \"artist\": \"Allaround\"}{\"track\": \"YOU ARE REAL\", \"artist\": \"Theme Park\"}{\"track\": \"1.5- XO TOUR Llif3 (Produced By TM88)\", \"artist\": \"LIL UZI VERT\"}{\"track\": \"Hold Me (Majestic Color)\", \"artist\": \"olmos\"}{\"track\": \"Sweet\", \"artist\": \"Little Dragon\"}{\"track\": \"Simple feat. JONES\", \"artist\": \"Joe Hertz\"}{\"track\": \"Drunk\", \"artist\": \"Mating Ritual\"}{\"track\": \"Call Off The Dogs\", \"artist\": \"Foreign Air\"}{\"track\": \"Lucky Girl\", \"artist\": \"Fazerdaze\"}{\"track\": \"DOWN\", \"artist\": \"FARR\"}{\"track\": \"Mystery\", \"artist\": \"Breakot\"}{\"track\": \"In My Place\", \"artist\": \"Coldplay\"}{\"track\": \"To The Wolves\", \"artist\": \"Vasser\"}{\"track\": \"Politik\", \"artist\": \"Coldplay\"}"
+{
+     "songs": [
+          {
+               "track": "Green Light (Hotel Garuda Remix)",
+               "artist": "Lorde"
+          },
+          {
+               "track": "DGAF feat. Shiloh Dynasty",
+               "artist": "Noah Slee"
+          },
+          {
+               "track": "Grace",
+               "artist": "Bob Moses"
+          },
+          {
+               "track": "Electric Feel",
+               "artist": "Nick Talos vs. CRW"
+          },
+          {
+               "track": "Sunroof",
+               "artist": "courtship."
+          },
+          {
+               "track": "Don't Want Your Love",
+               "artist": "Brika"
+          },
+          {
+               "track": "Kraak & Smaak Remix",
+               "artist": "Allaround"
+          },
+          {
+               "track": "YOU ARE REAL",
+               "artist": "Theme Park"
+          },
+          {
+               "track": "1.5- XO TOUR Llif3 (Produced By TM88)",
+               "artist": "LIL UZI VERT"
+          },
+          {
+               "track": "Hold Me (Majestic Color)",
+               "artist": "olmos"
+          },
+          {
+               "track": "Sweet",
+               "artist": "Little Dragon"
+          },
+          {
+               "track": "Call Off The Dogs",
+               "artist": "Foreign Air"
+          },
+          {
+               "track": "Simple feat. JONES",
+               "artist": "Joe Hertz"
+          },
+          {
+               "track": "Lucky Girl",
+               "artist": "Fazerdaze"
+          },
+          {
+               "track": "Drunk",
+               "artist": "Mating Ritual"
+          },
+          {
+               "track": "To The Wolves",
+               "artist": "Vasser"
+          },
+          {
+               "track": "In My Place",
+               "artist": "Coldplay"
+          },
+          {
+               "track": "DOWN",
+               "artist": "FARR"
+          },
+          {
+               "track": "Mystery",
+               "artist": "Breakot"
+          },
+          {
+               "track": "LOVE LOCKDOWN",
+               "artist": "Nick AM"
+          }
+     ]
+}
