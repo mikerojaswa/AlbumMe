@@ -1,6 +1,8 @@
 var elem = document.getElementById("square");
 var songArray = [];
-function randomAlbum() {
+
+
+function randomItunes() {
     var randomNumberBetween0and19 = Math.floor(Math.random() * 99);
    
     var title = "Title : " + songArray[randomNumberBetween0and19].title;
@@ -13,7 +15,14 @@ function randomAlbum() {
     document.getElementById("imageid").src=imagesrc;
 }
 
-
+function musicSrcDelegate(){
+   var src = document.getElementById("musicSource");
+    var srcVal = src.value;
+    if(srcVal == "itunes"){
+        randomItunes();
+    }
+    console.log(srcVal);
+}
 var url = "https://itunes.apple.com/WebObjects/MZStore.woa/wpa/MRSS/newreleases/sf=143441/limit=100/genre=7/explicit=true/rss.xml";
     
 $.get(url, function (data) {
@@ -41,6 +50,7 @@ $(data).find("item").each(function () {
     
     });
 });
+
 
 
 

@@ -1,15 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <div>
 <h1> Hello let me find you a new album to listen to!</h1>
+<p>Songs are from: itunes, hypemachine, and hotnewhiphop.</p>
 <h2 id="h2"> </h2>
 <h2 id="h21"> </h2>
 <h2 id="h22"> </h2>
 <img id="imageid" src="" style="width:100px;height:100px;">   
 </div>
+    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 <script src="script.js"></script>
 
+<select id = "musicSource">
+   <option value = "itunes">iTunes</option>
+   <option value = "hypemachine">HypeMachine</option>
+   <option value = "rap">HotNewHipHop</option>
+</select>
+    
+<button onclick="musicSrcDelegate()">Get me new music!</button>
 
-
-
-<button onclick="randomAlbum()">Get me a new album!</button>
+</body>
+</html>
