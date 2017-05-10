@@ -1,6 +1,9 @@
 var elem = document.getElementById("square");
 var songArray = [];
 
+$.getJSON("http://www.michaelarojas.com/AlbumMe/hypem.json", function(json) {
+});
+
 
 function randomItunes() {
     var randomNumberBetween0and19 = Math.floor(Math.random() * 99);
@@ -16,9 +19,7 @@ function randomItunes() {
 }
 
 function randomHype(){
-    $.getJSON("hypem.json", function(json) {
-    console.log(json); // this will show the info it in firebug console
-});
+console.log(json)
 }
 
 function musicSrcDelegate(){
