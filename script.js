@@ -1,9 +1,16 @@
 var elem = document.getElementById("square");
 var songArray = [];
+var counter = 0;
 
+var hypeJson;
 $.getJSON("http://www.michaelarojas.com/AlbumMe/hypem.json", function(json) {
+  hypeJson = json;
 });
 
+var rapJson;
+$.getJSON("http://www.michaelarojas.com/AlbumMe/hiphop.json", function(json) {
+  rapJson = json;
+});
 
 function randomItunes() {
     var randomNumberBetween0and19 = Math.floor(Math.random() * 99);
@@ -19,7 +26,27 @@ function randomItunes() {
 }
 
 function randomHype(){
-console.log(json)
+    if(counter != 20){
+        counter = counter + 1;
+    }else{
+        counter = 0;
+    }
+    document.getElementById("h2").innerHTML =  hypeJson.songs[counter].track;
+    document.getElementById("h21").innerHTML =  hypeJson.songs[counter].artist;
+    document.getElementById("h22").innerHTML =  "";
+    document.getElementById("imageid").src="hypem.png";
+}
+
+function randomRap(){
+    if(counter != 20){
+        counter = counter + 1;
+    }else{
+        counter = 0;
+    }
+    document.getElementById("h2").innerHTML =  rapJson.songs[counter].track;
+    document.getElementById("h21").innerHTML =  rapJson.songs[counter].artist;
+    document.getElementById("h22").innerHTML =  "";
+    document.getElementById("imageid").src="hothiphop.png";
 }
 
 function musicSrcDelegate(){
@@ -29,7 +56,10 @@ function musicSrcDelegate(){
         randomItunes();
     }
     if(srcVal == "hypemachine"){
-        randomHype()
+        randomHype();
+    }
+    if(srcVal == "rap"){
+        randomRap();
     }
     console.log(srcVal);
 }
