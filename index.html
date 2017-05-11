@@ -1,26 +1,63 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <!-- Animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+  <link rel="stylesheet" href="bttn.min.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+
+</head>
 <body>
 
-<div>
-<h1> Hello let me find you new music to listen to!</h1>
-<p>Songs are from: itunes, hypemachine, and hotnewhiphop.</p>
-<h2 id="h2"> </h2>
-<h2 id="h21"> </h2>
-<h2 id="h22"> </h2>
-<img id="imageid" src="" style="width:100px;height:100px;">   
+<div align="center">
+    <h1 class="animated bounce"> Hello let me find you new music to listen to!</h1>
+    <p>Songs are from: itunes, hypemachine, and hotnewhiphop.</p>
+    <h2 id="h2"> </h2>
+    <h2 id="h21"> </h2>
+    <h2 id="h22"> </h2>
+    <img id="imageid" src="" style="width:100px;height:100px;">   
+
+    <select id = "musicSource">
+    <option value = "itunes">iTunes</option>
+    <option value = "hypemachine">HypeMachine</option>
+    <option value = "rap">HotNewHipHop</option>
+    </select>
+    
+    <button class="bttn-fill bttn-sm bttn-primary" onclick="musicSrcDelegate()">Get me new music!</button>
 </div>
     
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="script.js"></script>
 
-<select id = "musicSource">
-   <option value = "itunes">iTunes</option>
-   <option value = "hypemachine">HypeMachine</option>
-   <option value = "rap">HotNewHipHop</option>
-</select>
-    
-<button onclick="musicSrcDelegate()">Get me new music!</button>
+
+
+<style>
+body, html {
+    height: 100%;
+}
+body {background-image: linear-gradient(to top, #09203f 0%, #537895 100%); 
+
+    font-family: 'Dosis', arial;
+        font-size: 18px;
+        
+
+ /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+</style>
+
+
 
 </body>
 </html>
