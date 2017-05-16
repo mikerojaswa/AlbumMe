@@ -14,8 +14,8 @@ $.getJSON("http://www.michaelarojas.com/AlbumMe/beatport.json", function (json) 
 });
 function randomItunes() {
     var randomNumberBetween0and19 = Math.floor(Math.random() * 99);
-    var title = "Title : " + songArray[randomNumberBetween0and19].title;
-    var artist = "Artist : " + songArray[randomNumberBetween0and19].artist;
+    var title =  songArray[randomNumberBetween0and19].title;
+    var artist =  songArray[randomNumberBetween0and19].artist;
     var category = "Genre : " + songArray[randomNumberBetween0and19].genre;
     var imagesrc = songArray[randomNumberBetween0and19].image;
     document.getElementById("h2").innerHTML = title;
@@ -24,7 +24,7 @@ function randomItunes() {
     document.getElementById("imageid").src = imagesrc;
 }
 function randomHype() {
-    if (globalCounter != 20) {
+    if (globalCounter < 20) {
         globalCounter = globalCounter + 1;
     }
     else {
@@ -36,7 +36,7 @@ function randomHype() {
     document.getElementById("imageid").src = "hypem.png";
 }
 function randomRap() {
-    if (globalCounter != 20) {
+    if (globalCounter < 20) {
         globalCounter = globalCounter + 1;
     }
     else {
@@ -54,8 +54,8 @@ function randomBeat() {
     else {
         globalCounter = 0;
     }
-    document.getElementById("h2").innerHTML = beatJson.tracks[globalCounter].artists[0].name;
-    document.getElementById("h21").innerHTML = beatJson.tracks[globalCounter].name;
+    document.getElementById("h2").innerHTML = beatJson.tracks[globalCounter].name;
+    document.getElementById("h21").innerHTML = beatJson.tracks[globalCounter].artists[0].name;
     document.getElementById("h22").innerHTML = "";
     var imagesrc = beatJson.tracks[globalCounter].images.large.url;
     document.getElementById("imageid").src = imagesrc;
