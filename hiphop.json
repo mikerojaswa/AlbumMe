@@ -1,84 +1,84 @@
 {
      "songs": [
           {
-               "track": "Magnolia (Swave Session)",
-               "artist": "Tory Lanez"
+               "track": "Get Mine",
+               "artist": "Bryson Tiller"
+          },
+          {
+               "track": "Paper Over Here",
+               "artist": "Quavo"
+          },
+          {
+               "track": "Honey",
+               "artist": "Bryson Tiller"
           },
           {
                "track": "Backboard (Prod. By  Maaly Raw & Murda Beatz)",
                "artist": "Meek Mill"
           },
           {
+               "track": "Out Of Center",
+               "artist": "Tory Lanez"
+          },
+          {
+               "track": "Die Young",
+               "artist": "Chris Brown"
+          },
+          {
                "track": "Outlet (Prod. By  Vinylz & SoundsbyCT)",
                "artist": "Desiigner"
           },
           {
-               "track": "11 Birds",
-               "artist": "Migos"
+               "track": "Rollin",
+               "artist": "Calvin Harris"
+          },
+          {
+               "track": "Bank Roll",
+               "artist": "Diplo"
+          },
+          {
+               "track": "Somethin Tells Me",
+               "artist": "Bryson Tiller"
           },
           {
                "track": "I'm The One",
                "artist": "DJ Khaled"
           },
           {
+               "track": "E.T.",
+               "artist": "B.o.B"
+          },
+          {
                "track": "$lay (Prod. By  Honorable C.N.O.T.E)",
                "artist": "Meek Mill"
           },
           {
-               "track": "Xantastic",
-               "artist": "B.o.B"
+               "track": "looking for a star (CANT GET YOU OUT OF MY HEAD) (Prod. By  Diplo)",
+               "artist": "XXXTENTACION"
           },
           {
-               "track": "AfricAryaN",
-               "artist": "Logic"
-          },
-          {
-               "track": "Eyes Closed",
-               "artist": "Tyga"
-          },
-          {
-               "track": "Pull Up With A Zip (Remix)",
-               "artist": "Wiz Khalifa"
-          },
-          {
-               "track": "Think About Me",
-               "artist": "dvsn"
-          },
-          {
-               "track": "Wrong",
-               "artist": "A$AP Rocky"
-          },
-          {
-               "track": "Cold (Remix)",
-               "artist": "Maroon 5"
-          },
-          {
-               "track": "Papasito",
-               "artist": "Jeremih"
-          },
-          {
-               "track": "Out Of Center",
+               "track": "Magnolia (Swave Session)",
                "artist": "Tory Lanez"
           },
           {
-               "track": "Slide On Me",
-               "artist": "Frank Ocean"
+               "track": "Unforgettable (East Mix)",
+               "artist": "Dave East"
           },
           {
-               "track": "Take It Back",
-               "artist": "Logic"
+               "track": "Passit (Passion Fruit Weedmix)",
+               "artist": "Wiz Khalifa"
           },
           {
-               "track": "Bring It Back",
-               "artist": "Lil Yachty"
+               "track": "Trash Bags",
+               "artist": "Snoop Dogg"
           },
           {
-               "track": "Ice Cold",
-               "artist": "Big Lenbo"
+               "track": "Pressure",
+               "artist": "Lil Durk"
           },
           {
-               "track": "1-800-273-8255",
-               "artist": "Logic"
+               "track": "Everyday We Lit (Remix)",
+               "artist": "YFN Lucci"
           }
      ]
 }
